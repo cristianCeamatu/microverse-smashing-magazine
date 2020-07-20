@@ -175,6 +175,9 @@ nav label input {
 }
 
 /* latest-posts */
+.latest-posts {
+  padding: 80px 40px;
+}
 .latest-posts-container {
     display: flex;
     align-items: flex;
@@ -184,18 +187,19 @@ nav label input {
 .latest-posts-item {
     width: 25%;
     height: 592px;
-    border: 1px black solid;
     display: flex;
     flex-direction: column;
     padding: 25px;
     position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 30px;
 }
 
 .latest-posts-item span {
     font-size: 14px;
     color: rgb(165, 164, 164);
     padding: 15px 0;
-
 }
 
 .latest-posts-item h2 {
@@ -218,24 +222,53 @@ nav label input {
     line-height: 30px;
 }
 
-.latest-posts-item button {
+.latest-posts-button {
     left: 0;
     width: 115px;
     height: 115px;
     bottom: 0;
     position: absolute;
-    background-color: rgb(172, 172, 172);
     border: none;
     outline: none;
     font-size: 30px;
+    background-color: inherit;
 }
 
 .latest-posts-feature {
+    text-align: center;
     width: 50%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding: 25px;
+    line-height: 1.8;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.latest-posts-feature > a {
+  font-size: 30px;
+  color: #565656;
+  text-decoration-color: #aaaaaa;
+}
+
+.latest-posts-feature p {
+  padding: 20px 60px;
+}
+
+.latest-posts-feature-button {
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin: 15px auto;
+  cursor: pointer;
+  background-color: rgb(155, 155, 155);
+  color: white;
 }
 
 .latest-posts-feature img {
@@ -243,16 +276,54 @@ nav label input {
 }
 
 .latest-posts>p {
-    height: 30px;
-    background-color: gray;
-    margin: 30px auto;
-    width: 15%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.latest-posts>p>a {
+    color: #565656;
+    line-height: 1.6;
+    padding: 15px 0;
+    text-decoration: none;
+    border-bottom: 3px solid #494949;
 }
 
 /* book-add */
 .book-add {
     height: 1060px;
-    background-color: #ccc;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.book-add-details > * {
+  margin-bottom: 30px;
+  max-width: 60%;
+  margin: 30px auto;
+}
+
+.book-add-heading {
+  font-size: 48px;
+  margin: 30px auto;
+  text-decoration: underline;
+  text-decoration-color: darkgray;
+}
+
+.book-add-image {
+  width: 60%;
+}
+
+.book-add-button {
+  font-size: 24px;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 /* Potw */
@@ -318,4 +389,16 @@ nav label input {
 footer {
     height: 700px;
     background-color: gray;
+}
+
+
+/* Pseudo classes for the stylelint linter to work */
+.latest-posts-item:hover {
+  transform: scale(1.1);
+  border: none;
+  background-color: whitesmoke;
+  z-index: 3;
+}
+.latest-posts-item:hover .latest-posts-button {
+  background-color: rgb(172, 172, 172);
 }

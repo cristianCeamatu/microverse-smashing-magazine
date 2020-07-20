@@ -10,7 +10,7 @@
 
 /* global */
 body {
-  font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 /* nav */
@@ -37,37 +37,41 @@ nav>ul>li>a {
 }
 
 nav .brand {
-  margin-top: 20px;
-  height: 60px;
+    margin-top: 20px;
+    height: 60px;
 }
 
 nav ul button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  padding: 6px;
-  cursor: pointer;
-  border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(73, 73, 73);
+    border: 0;
+    outline: 0;
+    color: white;
 }
 
 nav ul button img {
-  height: 30px;
-  padding-left: 5px;
+    height: 30px;
+    padding-left: 5px;
 }
 
 nav label {
-  background-color: #ffffff;
-  color: black;
-  padding: 15px;
-  border-radius: 10px;
+    background-color: #ffffff;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 nav label input {
-  border: none;
-  outline: none;
-  font-size: 20px;
-  padding-left: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 5px;
 }
 
 /* main */
@@ -77,7 +81,7 @@ nav label input {
     position: relative;
 }
 
-.latest-articles>.div-1{
+.latest-articles>.div-1 {
     position: absolute;
 }
 
@@ -90,12 +94,13 @@ nav label input {
     font-size: 36px;
     text-align: center;
 }
+
 .latest-articles>h1>span {
-  padding: 5px 15px;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-  letter-spacing: -1px;
-  background-color: rgb(161, 161, 161);
+    padding: 5px 15px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    letter-spacing: -1px;
+    background-color: rgb(161, 161, 161);
 }
 
 .latest-articles>.div-2 {
@@ -120,13 +125,36 @@ nav label input {
     border: 1px black solid;
     padding: 30px;
     display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    background-color: rgb(199, 198, 198);
 }
 
-.latest-articles-container> * > a {
-  padding: 25px;
-  font-size: 20px;
-  text-decoration: none;
-  color: #565656;
+.latest-articles-container a {
+    padding-left: 20px;
+
+    text-decoration: none;
+    color: #565656;
+}
+
+.latest-articles-container>article>div:first-child {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: none;
+    font-size: 20px;
+}
+
+.latest-articles-container>article div:nth-child(2) {
+    padding: 30px 20px;
+    font-size: 40px;
+
+}
+
+.latest-articles-container a>span {
+    font-family: 'Fondamento',
+        cursive;
+    font-size: 18px;
 }
 
 .latest-articles-container>.latest-articles-item-taller {
@@ -135,103 +163,159 @@ nav label input {
 }
 
 .latest-articles-image {
-  width: 75px;
-  height: 75px;
-  background-color: #d8d8d8;
-  transform: rotate(-20deg);
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #d8d8d8;
+    transform: rotate(-20deg);
+}
+
+.latest-articles-image:hover {
+    transform: rotate(0deg);
 }
 
 /* latest-posts */
 .latest-posts-container {
-  display: flex;
-  align-items: flex;
-  flex-wrap: wrap;
+    display: flex;
+    align-items: flex;
+    flex-wrap: wrap;
 }
 
 .latest-posts-item {
-  width: 25%;
-  height: 592px;
-  border: 1px black solid;
+    width: 25%;
+    height: 592px;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    position: relative;
+}
+
+.latest-posts-item span {
+    font-size: 14px;
+    color: rgb(165, 164, 164);
+    padding: 15px 0;
+
+}
+
+.latest-posts-item h2 {
+    font-size: 26px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.latest-posts-item h3 {
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+.latest-posts-item h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.latest-posts-item p {
+    line-height: 30px;
+}
+
+.latest-posts-item button {
+    left: 0;
+    width: 115px;
+    height: 115px;
+    bottom: 0;
+    position: absolute;
+    background-color: rgb(172, 172, 172);
+    border: none;
+    outline: none;
+    font-size: 30px;
 }
 
 .latest-posts-feature {
-  width: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.latest-posts > p {
-  height: 30px;
-  background-color: gray;
-  margin: 30px auto;
-  width: 15%;
+.latest-posts-feature img {
+    width: 250px;
+}
+
+.latest-posts>p {
+    height: 30px;
+    background-color: gray;
+    margin: 30px auto;
+    width: 15%;
 }
 
 /* book-add */
 .book-add {
-  height: 1060px;
-  background-color: #ccc;
+    height: 1060px;
+    background-color: #ccc;
 }
 
 /* Potw */
 .potw {
-  height: 300px;
-  background-color: aqua;
+    height: 300px;
+    background-color: aqua;
 }
 
 /* authored-articles */
 .authored-articles-container {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .authored-articles-item {
-  width: 50%;
-  height: 400px;
-  border: 1px solid yellow;
+    width: 50%;
+    height: 400px;
+    border: 1px solid yellow;
 }
 
-.authored-articles > p {
-  height: 30px;
-  background-color: gray;
-  margin: 30px auto;
-  width: 15%;
+.authored-articles>p {
+    height: 30px;
+    background-color: gray;
+    margin: 30px auto;
+    width: 15%;
 }
 
 /* featured-book */
 .featured-book {
-  height: 380px;
-  background-color: darkgray;
+    height: 380px;
+    background-color: darkgray;
 }
 
 /* our-guides */
 .our-guides-articles {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .our-guides-articles-item {
-  height: 580px;
-  border: 1px solid darkslateblue;
-  width: 30%;
+    height: 580px;
+    border: 1px solid darkslateblue;
+    width: 30%;
 }
 
 .our-guides-newsletter {
-  height: 850px;
-  width: 650px;
-  margin: 30px auto;
-  background-color: dimgray;
+    height: 850px;
+    width: 650px;
+    margin: 30px auto;
+    background-color: dimgray;
 }
 
-.our-guides > p {
-  height: 30px;
-  background-color: gray;
-  margin: 30px auto;
-  width: 15%;
+.our-guides>p {
+    height: 30px;
+    background-color: gray;
+    margin: 30px auto;
+    width: 15%;
 }
 
 /* footer */
 footer {
-  height: 700px;
-  background-color: gray;
+    height: 700px;
+    background-color: gray;
 }

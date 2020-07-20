@@ -1,7 +1,6 @@
-
 /* css-reset */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +9,7 @@
 }
 
 /* nav */
-nav{
+nav {
     justify-content: space-evenly;
     align-items: center;
     background-color: grey;
@@ -18,7 +17,7 @@ nav{
     padding: 0;
 }
 
-nav > ul {
+nav>ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -26,14 +25,74 @@ nav > ul {
     height: 105px;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     background-color: rgb(82, 82, 82);
 }
 
-nav > ul > li:first-child > a{
+nav>ul>li:first-child>a {
     background-color: white;
 }
 
+
+/* main */
+
+/* latest-articles */
+.latest-articles {
+    position: relative;
+}
+
+.latest-articles>.div-1,
+.latest-articles>.div-2,
+.latest-articles>.latest-articles-toggler {
+    position: absolute;
+}
+
+.latest-articles-toggler {
+    width: 240px;
+    height: 70px;
+    border: 1px black solid;
+    right: 40px;
+    top: 40px;
+    background-color: rgb(136, 135, 135);
+}
+
+.latest-articles>.div-1 {
+    width: 30%;
+    height: 65px;
+    border: 1px black solid;
+    left: 50%;
+    margin-left: -15%;
+    margin-top: 40px;
+    background-color: rgb(161, 161, 161);
+
+}
+
+.latest-articles>.div-2 {
+    width: 10%;
+    height: 65px;
+    border: 1px black solid;
+    left: 50%;
+    margin-left: -5%;
+    margin-top: 90px;
+    z-index: 2;
+    background-color: rgb(161, 161, 161)
+}
+
+.latest-articles-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.latest-articles-container>* {
+    width: 50%;
+    height: 560px;
+    border: 1px black solid;
+}
+
+.latest-articles-container>.latest-articles-item-1,
+.latest-articles-container>.latest-articles-item-2 {
+    height: 710px;
+}

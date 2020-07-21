@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 # Design Teardown project: Heatmap of the Smashing magazine website
 
-> This is a Smashing magazine homepage heatmap using HTML and CSS3.
+> This is a Smashing magazine homepage heatmap using HTML and CSS3. The code has been reviewed by Microverse members.
 
 ## Screenshots of our website
 

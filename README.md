@@ -21,7 +21,7 @@ The project is built using Html and Css with an extensive use of css proprieties
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cristianCeamatu/microverse-smashing-magazine/feature-branch/index.html)
+[Live Demo Link](https://rawcdn.githack.com/cristianCeamatu/microverse-smashing-magazine/074096e3dda3096b49a0f59aa6e472b6ce29e8af/index.html)
 
 ## To get a local copy up and running follow these simple example steps.
 

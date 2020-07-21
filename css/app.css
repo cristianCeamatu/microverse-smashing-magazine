@@ -409,8 +409,53 @@ nav label input {
 
 /* featured-book */
 .featured-book {
-    height: 380px;
+    display: flex;
+    justify-content: space-between;
     background-color: darkgray;
+    padding: 50px;
+    position: relative;
+    line-height: 1.8;
+}
+.featured-book-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 65%;
+}
+
+.featured-book-title {
+    font-size: 44px;
+    padding-top: 0;
+}
+
+.featured-book-title a {
+    color: white;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+
+.featured-book-subtitle {
+    margin-bottom: 20px;
+}
+
+.featured-book-details button {
+    font-size: 24px;
+    padding: 19px 25px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.featured-book-image {
+    width: 256px;
+    /* height: 320px; */
+    position: absolute;
+    right: 100px;
+    top: -40px;
+    transform-origin: 0 100%;
+    transform: rotate(-15deg);
 }
 
 /* our-guides */
@@ -461,10 +506,15 @@ footer {
 
 .potw-image:hover,
 .latest-articles-image:hover,
-.authored-articles-image:hover {
+.authored-articles-image:hover,
+.featured-book-image:hover {
     transform: rotate(0deg);
 }
 
 .authored-articles-detailes>a:hover {
     color: rgb(0, 0, 0);
+}
+
+.featured-book-details > *:first-child {
+    font-size: 17px;
 }

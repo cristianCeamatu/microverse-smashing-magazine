@@ -46,6 +46,10 @@ nav > ul {
   height: 105px;
 }
 
+footer a {
+  color: #fafafa;
+}
+
 nav > ul > li > a {
   text-decoration: none;
   color: white;

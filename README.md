@@ -1,20 +1,17 @@
 ![Hireable](https://img.shields.io/badge/Hireable-yes-success)
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
-# Positioning and Floating Elements project: New York Times article page
+# Design Teardown project: Heatmap of the Smashing magazine website
 
-> This is a New York Times article page clone using HTML and CSS3.
+> This is a Smashing magazine homepage heatmap using HTML and CSS3.
 
-## Screenshots of original website
+## Screenshots of our website
 
-![screenshot](./app-screenshot-original-full.png)
+![screenshot](./.github/app-screenshot.png)
 
-## Screenshots of our clone website
+## You can view the [original website here](https://www.smashingmagazine.com/)
 
-![screenshot](./app-screenshot-clone-full.png)
-
-
-The project is built using Html and Css with an extensive use of the grid, flex and float css properties.
+The project is built using Html and Css with an extensive use of css proprieties.
 
 ## Built With
 
@@ -24,7 +21,7 @@ The project is built using Html and Css with an extensive use of the grid, flex 
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cristianCeamatu/microverse-new-york-times-article-page/adding-article-page/index.html)
+[Live Demo Link](https://rawcdn.githack.com/cristianCeamatu/microverse-smashing-magazine/074096e3dda3096b49a0f59aa6e472b6ce29e8af/index.html)
 
 ## To get a local copy up and running follow these simple example steps.
 
@@ -49,11 +46,10 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 - Twitter: [@twitterhandle](https://twitter.com/CeamatuV)
 - Linkedin: [linkedin](https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/)
 
-👤 **Diego Lira**
+👤 **Mahmoud Mohammad**
 
-- Github: [@githubhandle](https://github.com/lirad)
-- Twitter: [@twitterhandle](https://twitter.com/lirad)
-- Linkedin: [linkedin](https://www.linkedin.com/in/diegoalira/)
+- Github: [@githubhandle](https://github.com/mahmoud717)
+- Twitter: [@twitterhandle](https://twitter.com/mahmoud26369406)
 
 ## Show your support
 

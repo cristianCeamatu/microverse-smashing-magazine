@@ -415,6 +415,7 @@ nav label input {
     padding: 50px;
     position: relative;
     line-height: 1.8;
+    margin-bottom: 80px;
 }
 .featured-book-details {
     display: flex;
@@ -466,9 +467,37 @@ nav label input {
 }
 
 .our-guides-articles-item {
-    height: 580px;
-    border: 1px solid darkslateblue;
+    background-color: rgb(245, 245, 245);
+    color: #000;
     width: 30%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.our-guides-title {
+    font-size: 44px;
+    padding: 10px 0;
+}
+
+.our-guides-title a {
+    color: rgb(167, 167, 167);
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+}
+
+.our-guides-subtitle {
+    margin: 20px auto;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.our-guides-details button {
+    font-size: 24px;
+    padding: 19px 25px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
 }
 
 .our-guides-newsletter {

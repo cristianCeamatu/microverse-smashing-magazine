@@ -14,7 +14,7 @@ body {
     font-family: 'Balsamiq Sans', cursive;
 }
 
-img {
+img, svg {
     filter: grayscale(100%);
 }
 

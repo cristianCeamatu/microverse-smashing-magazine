@@ -23,6 +23,9 @@ The project is built using Html and Css with an extensive use of css proprieties
 
 [Live Demo Link](https://rawcdn.githack.com/cristianCeamatu/microverse-smashing-magazine/074096e3dda3096b49a0f59aa6e472b6ce29e8af/index.html)
 
+## Future improvements
+Make the website mobile responsive
+
 ## To get a local copy up and running follow these simple example steps.
 
 ### Setup
